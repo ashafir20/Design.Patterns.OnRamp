@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralsightDesign.Patterns.OnRamp", "PluralsightDesign.Patterns.OnRamp\PluralsightDesign.Patterns.OnRamp.csproj", "{9BA6928D-BF0F-4E64-9938-A2D73A0D44BF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{EBE150F1-8D1F-43F9-950D-EBDA1B90D480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer-Event", "Observer-Event\Observer-Event.csproj", "{2FCA5731-AE0C-40AD-A4EE-53BD3ADFB1D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer-StockTicker", "Observer-StockTicker\Observer-StockTicker.csproj", "{5E2B6B3B-5684-459B-ACED-21A1CBA93FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy-ServiceProxy", "Proxy-ServiceProxy\Proxy-ServiceProxy.csproj", "{4DEFF28F-54EC-49F3-9953-1D44EA375235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy-SOAPService", "Proxy-SOAPService\Proxy-SOAPService.csproj", "{357D4D6D-2316-4A33-B957-FD6CC89A9780}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9BA6928D-BF0F-4E64-9938-A2D73A0D44BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BA6928D-BF0F-4E64-9938-A2D73A0D44BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BA6928D-BF0F-4E64-9938-A2D73A0D44BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BA6928D-BF0F-4E64-9938-A2D73A0D44BF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EBE150F1-8D1F-43F9-950D-EBDA1B90D480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EBE150F1-8D1F-43F9-950D-EBDA1B90D480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBE150F1-8D1F-43F9-950D-EBDA1B90D480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBE150F1-8D1F-43F9-950D-EBDA1B90D480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FCA5731-AE0C-40AD-A4EE-53BD3ADFB1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCA5731-AE0C-40AD-A4EE-53BD3ADFB1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCA5731-AE0C-40AD-A4EE-53BD3ADFB1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCA5731-AE0C-40AD-A4EE-53BD3ADFB1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2B6B3B-5684-459B-ACED-21A1CBA93FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2B6B3B-5684-459B-ACED-21A1CBA93FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2B6B3B-5684-459B-ACED-21A1CBA93FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2B6B3B-5684-459B-ACED-21A1CBA93FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEFF28F-54EC-49F3-9953-1D44EA375235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEFF28F-54EC-49F3-9953-1D44EA375235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEFF28F-54EC-49F3-9953-1D44EA375235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEFF28F-54EC-49F3-9953-1D44EA375235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357D4D6D-2316-4A33-B957-FD6CC89A9780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357D4D6D-2316-4A33-B957-FD6CC89A9780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357D4D6D-2316-4A33-B957-FD6CC89A9780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357D4D6D-2316-4A33-B957-FD6CC89A9780}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
